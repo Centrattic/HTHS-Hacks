@@ -1,0 +1,78 @@
+h1, h2 {
+    width: 37%;
+}
+
+.borderallies {
+    width: 37%;
+    border: 10px double black;
+    border-radius: 4%;
+    background-color: rgb(243, 243, 243);
+    position:absolute;
+    left: 31.5%;
+    padding: 1%;
+}
+
+#movedown {
+    position: absolute;
+    left:31.5%;
+    top: 205%;
+    padding:1%;
+}
+
+.largeally {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #1d19d8;
+}
+
+p {
+    font-size: 1em;
+    text-align: left;
+    margin-left: 2%;
+}
+
+textarea {
+    margin-left: 2%;
+    width: 96%;
+}
+
+.borderallies h1 {
+    position:relative;
+    left:35%;
+}
+
+
+#submithelpers, #submithelp {
+    margin: 2%;
+    width: 30%;
+    height: 40px;
+    font-size: 1em;
+    background-color:  #3661e2;
+    color: white;
+}
+
+
+
+#topstuff {
+    background-image: url("Pictures/allieshope.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50%;
+    
+}
+
+#topstuff h1 {
+    color: rgb(114, 14, 61);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4em;
+    position: relative;
+    left: 35%;
+    top: 40%;
+}
+
+#topstuff h3 {
+    position: relative;
+    font-size: 2em;
+    left: 28%;
+    top: 45%;
+}

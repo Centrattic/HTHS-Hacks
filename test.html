@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <!--<link rel = "stylesheet" href = "helpRequests.css">-->
+    <script type="text/javascript" language="javascript" src="TableFilter/tablefilter.js"></script>  
+
+</head>
+<body>
+
+
+<table id="table1" cellspacing="0" >  
+
+    <caption>Help Requests</caption>
+    <tr>
+        <td>Name </td>
+        <td>Zipcode </td>
+        <td>Services Needed </td>
+        <td>Contact Info </td>
+        <td>Extra Info </td>
+    </tr>
+    
+    <tr>
+        <th>Tanish</th>
+        <th>07078</th>
+        <th>Tutoring</th>
+        <th>5085232983</th>
+        <th>Thank You on F</th>
+    </tr>
+    <tr>
+        <th>Tanish</th>
+        <th>07078</th>
+        <th>Tutoring</th>
+        <th>5085232983</th>
+        <th>Thank You on F</th>
+    </tr>
+</table>
+
+
+
+<script language="javascript" type="text/javascript">  
+    var tableFilters = {  
+        col_2: "select",  
+        col_3: "none",
+        col_4: "none",  
+        btn: true  
+    }  
+    var tf = setFilterGrid("table1",2,tableFilters);  
+</script>  
+
+</body>
+</html>

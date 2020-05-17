@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body {
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  height: 100vh;
+}
+.menu-area li a {
+  text-decoration: none;
+}
+
+.menu-area li {
+  list-style-type: none;
+}
+
+.buttonul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+.buttonul li {
+  float: right;
+}
+
+a {
+  display: block;
+}
+
+nav {
+  position: relative;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 1% 0;
+  background: #333;
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+  height: 8%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.menu-area li {
+  display: inline-block;
+  position: relative;
+  right : 600px;
+}
+
+.menu-area a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: tomato;
+  color: #fff;
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-35deg);
+}
+
+nav:before {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  left: 0;
+}
+
+nav:after {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  right: 0;
+}
+
+#logout {
+  position: relative;
+  top: -28px;
+  right: 100px;
+}
+
+#submit {
+  position: relative;
+  top: -28px;
+  
+}
+
+::placeholder {
+  font-size: 1em;
+}
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  /*
+  ul {
+    background-color: black;
+    list-style:none;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  li {
+    color: white;
+    background-color: black;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+
+  li a {
+    color: white;
+  }
+
+  li:hover {
+    cursor: pointer;
+    background: tomato;
+  }
+
+  ul li ul  {
+    background: black;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5 ease;
+    margin-top: 1rem;
+    left: 0; /* this sets left with titles directly on side, maybe add margin/logo/move around 
+    display: none;
+  }
+
+  ul li:hover > ul, ul li ul:hover { /*stuff before > is parent of stuff after
+    visibility: visible;
+    opacity: 1;
+    display: block;
+
+  }
+
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+*/
